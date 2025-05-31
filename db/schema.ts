@@ -1,8 +1,8 @@
 
-import { integer, text, pgTable, date } from "drizzle-orm/pg-core";
+import { integer, text, pgTable, date, serial } from "drizzle-orm/pg-core";
 
 export const User = pgTable("user", {
-    id: integer("id").primaryKey().unique(),
+    id: serial("id").primaryKey().unique(),
     userId: text("user_id").notNull(),
     imageUrl: text('image_url'),
     name: text('name').notNull(),

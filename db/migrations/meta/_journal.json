@@ -8,6 +8,20 @@
       "when": 1748679470640,
       "tag": "0000_brave_deadpool",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1748681556984,
+      "tag": "0001_outgoing_nemesis",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1748681811721,
+      "tag": "0002_happy_adam_destine",
+      "breakpoints": true
     }
   ]
 }

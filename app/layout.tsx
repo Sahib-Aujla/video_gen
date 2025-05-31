@@ -25,14 +25,15 @@ export default async function RootLayout({
 }>) {
  
   return (
-    <Provider>
+    
       <html lang="en">
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
+          <Provider>
           {children}
+          </Provider>
         </body>
       </html>
-    </Provider>
   );
 }
